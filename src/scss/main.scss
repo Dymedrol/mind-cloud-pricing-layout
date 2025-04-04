@@ -124,6 +124,7 @@ body {
   margin-bottom: 24px;
 
   @media ($M) {
+    font-weight: 700;
     font-size: 18px;
     line-height: 22px;
   }
@@ -467,12 +468,12 @@ body {
   & .pricing-item-button {
     color: #FFF;
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.80);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     background: radial-gradient(78.24% 153.77% at 50.21% 100%, rgba(17, 20, 194, 0.60) 0%, rgba(34, 100, 150, 0.00) 100%), #5FD8FF;
     box-shadow: 0px 0px 5px 0px rgba(184, 240, 255, 0.40) inset, 3px 0px 24px 0px rgba(186, 238, 255, 0.20);
 
     &:hover {
-      border: 1px solid rgba(255, 255, 255, 0.80);
+      border: 1px solid rgba(255, 255, 255, 0.15);
       background: radial-gradient(111.84% 219.81% at 50.21% 100%, rgba(17, 20, 194, 0.60) 0%, rgba(34, 100, 150, 0.00) 100%), #02B7F1;
       box-shadow: 23px 0px 12px 0px rgba(11, 194, 252, 0.12), 0px 0px 5px 0px rgba(184, 240, 255, 0.40) inset;
     }
@@ -779,20 +780,24 @@ body {
   & .compare-item-row {
     @media ($XXL) {;
       color: #FFF;
+
+      & svg path {
+        fill: #82DAFF;
+      }
     }
   }
 
   & .compare-item-cta {
     color: #FFF;
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.80);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     margin-bottom: 0;
     background: radial-gradient(78.24% 153.77% at 50.21% 100%, rgba(17, 20, 194, 0.60) 0%, rgba(34, 100, 150, 0.00) 100%), #5FD8FF;
     box-shadow: 0px 0px 5px 0px rgba(184, 240, 255, 0.40) inset, 3px 0px 24px 0px rgba(186, 238, 255, 0.20);
 
     &:hover {
       border-radius: 12px;
-      border: 1px solid rgba(255, 255, 255, 0.80);
+      border: 1px solid rgba(255, 255, 255, 0.15);
       background: radial-gradient(111.84% 219.81% at 50.21% 100%, rgba(17, 20, 194, 0.60) 0%, rgba(34, 100, 150, 0.00) 100%), #02B7F1;
       box-shadow: 23px 0px 12px 0px rgba(11, 194, 252, 0.12), 0px 0px 5px 0px rgba(184, 240, 255, 0.40) inset;
     }
